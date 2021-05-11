@@ -1,0 +1,24 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "urlPattern": "/ws/01010100/json"
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "zipCode": "01010-100",
+                    "address": "Rua XPTO",
+                    "complement": "",
+                    "neighborhood": "São ABC",
+                    "state": "SP",
+                    "city": "São Paulo"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        }
+    ]
+}
